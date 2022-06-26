@@ -1,0 +1,1890 @@
+body {
+        background-color: #edf2f6;
+}
+.left{
+        height: 100vh;
+        width: 70px;
+        background-color: white;
+        position: fixed;
+        top: 6.5%;
+        z-index: 1;
+        padding-top: 20px;
+        display: none;
+}
+.left  ul li{
+        list-style-type:none;
+}
+.left  ul li .fa-bars {
+        font-size: 23px;
+        margin-left: -32px;
+        padding: 18px;
+        color: #9a9fbf;
+        font-weight: normal;
+}
+.left  ul li .fa-bars:hover{
+        color: #ff5e3a;
+}
+.left  ul li .fa-newspaper{
+        font-size: 23px;
+        margin-left: -35px;
+        padding: 18px;
+        color: #9a9fbf;
+        font-weight: normal;
+}
+.left  ul li .fa-newspaper:hover{
+        color: #ff5e3a;
+}
+.left  ul li .icons {
+        font-size: 23px;
+        padding: 18px;
+        color: #9a9fbf;
+        font-weight: normal;
+        margin-left: -33px;
+}
+.left  ul li .icons:hover{
+        color: #ff5e3a;
+}
+#menu-click{
+        text-decoration: none;
+}
+
+.menu-icon{
+        display: none;
+        color: #9a9fbf;
+        font-size: 13px;
+        font-weight: bold;
+        text-decoration: none;
+}
+
+.menu-icon:hover{
+        text-decoration: none;
+        color: #3f4257;
+}
+.leftgrow{
+        width: 200px;
+}
+ .leftgrow .menu-icon{
+         display: inline-block;
+ }
+
+/* right side  */
+
+.right{
+        height: 100vh;
+        width: 70px;
+        background-color: white;
+        position: fixed;
+       display: none;
+        top: 6.5%;
+        right: 0px;
+        z-index: 1;
+        padding-top: 20px;
+
+}
+.right .rightchatnames {
+        text-decoration: none;
+        
+        font-weight: bold;
+        
+
+}
+.right .rightchatnames .name{
+        position: absolute;
+        top: 35px;
+        margin-left: 20px;
+        font-size: 12px;
+        color: #3f4257;
+}
+.right .rightchatnames .name:hover{
+        color: #ff5e3a;
+}
+.right .rightchatnames .status{
+        position: absolute;
+        top: 55px;
+        margin-left: 38px;
+        font-size: 10px;
+        color: #888da8;
+}
+.rightmenuicon .fa-ellipsis-h{
+       position: absolute;
+       margin-left: 170px;
+        top: 43px;
+        font-size: 16px;
+        color: #babcc5;
+}
+.right .rightchatnames .name2{
+        position: absolute;
+        top: 95px;
+        margin-left: 20px;
+        font-size: 12px;
+        color: #3f4257;
+}
+.right .rightchatnames .name2:hover{
+        color: #ff5e3a;
+}
+.right .rightchatnames .status2{
+        position: absolute;
+        top: 115px;
+        margin-left: 38px;
+        font-size: 10px;
+        color: #888da8;
+}
+.rightmenuicon2 .fa-ellipsis-h{
+       position: absolute;
+       margin-left: 170px;
+        top: 104px;
+        font-size: 16px;
+        color: #babcc5;
+}
+.right .rightchatnames .name3{
+        position: absolute;
+        top: 160px;
+        margin-left: 20px;
+        font-size: 12px;
+        color: #3f4257;
+}
+.right .rightchatnames .name3:hover{
+        color: #ff5e3a;
+}
+.right .rightchatnames .status3{
+        position: absolute;
+        top: 180px;
+        margin-left: 38px;
+        font-size: 10px;
+        color: #888da8;
+}
+.rightmenuicon3 .fa-ellipsis-h{
+       position: absolute;
+       margin-left: 170px;
+        top: 168px;
+        font-size: 16px;
+        color: #babcc5;
+}
+.right .rightchatnames .name4{
+        position: absolute;
+        top: 225px;
+        margin-left: 20px;
+        font-size: 12px;
+        color: #3f4257;
+}
+.right .rightchatnames .name4:hover{
+        color: #ff5e3a;
+}
+.right .rightchatnames .status4{
+        position: absolute;
+        top: 245px;
+        margin-left: 38px;
+        font-size: 10px;
+        color: #888da8;
+}
+.rightmenuicon4 .fa-ellipsis-h{
+       position: absolute;
+       margin-left: 170px;
+        top: 168px;
+        font-size: 16px;
+        color: #babcc5;
+}
+.right .rightchatnames .name5{
+        position: absolute;
+        top: 290px;
+        margin-left: 20px;
+        font-size: 12px;
+        color: #3f4257;
+}
+.right .rightchatnames .name5:hover{
+        color: #ff5e3a;
+}
+.right .rightchatnames .status5{
+        position: absolute;
+        top: 310px;
+        margin-left: 38px;
+        font-size: 10px;
+        color: #888da8;
+}
+.rightmenuicon5 .fa-ellipsis-h{
+       position: absolute;
+       margin-left: 170px;
+        top: 168px;
+        font-size: 16px;
+        color: #babcc5;
+}
+.right .rightchatnames .name6{
+        position: absolute;
+        top: 355px;
+        margin-left: 20px;
+        font-size: 12px;
+        color: #3f4257;
+}
+.right .rightchatnames .name6:hover{
+        color: #ff5e3a;
+}
+.right .rightchatnames .status6{
+        position: absolute;
+        top: 375px;
+        margin-left: 38px;
+        font-size: 10px;
+        color: #888da8;
+}
+.rightmenuicon6 .fa-ellipsis-h{
+       position: absolute;
+       margin-left: 170px;
+        top: 168px;
+        font-size: 16px;
+        color: #babcc5;
+}
+.right .rightchatnames .name7{
+        position: absolute;
+        top: 420px;
+        margin-left: 20px;
+        font-size: 12px;
+        color: #3f4257;
+}
+.right .rightchatnames .name7:hover{
+        color: #ff5e3a;
+}
+.right .rightchatnames .status7{
+        position: absolute;
+        top: 440px;
+        margin-left: 38px;
+        font-size: 10px;
+        color: #888da8;
+}
+.rightmenuicon7 .fa-ellipsis-h{
+       position: absolute;
+       margin-left: 170px;
+        top: 168px;
+        font-size: 16px;
+        color: #babcc5;
+}
+.right .rightchatnames .name8{
+        position: absolute;
+        top: 485px;
+        margin-left: 20px;
+        font-size: 12px;
+        color: #3f4257;
+}
+.right .rightchatnames .name8:hover{
+        color: #ff5e3a;
+}
+.right .rightchatnames .status8{
+        position: absolute;
+        top: 505px;
+        margin-left: 38px;
+        font-size: 10px;
+        color: #888da8;
+}
+.rightmenuicon8 .fa-ellipsis-h{
+       position: absolute;
+       margin-left: 170px;
+        top: 168px;
+        font-size: 16px;
+        color: #babcc5;
+}
+.right .rightchatnames .name9{
+        position: absolute;
+        top: 555px;
+        margin-left: 20px;
+        font-size: 12px;
+        color: #3f4257;
+}
+.right .rightchatnames .name9:hover{
+        color: #ff5e3a;
+}
+.right .rightchatnames .status9{
+        position: absolute;
+        top: 575px;
+        margin-left: 38px;
+        font-size: 10px;
+        color: #888da8;
+}
+.rightmenuicon9 .fa-ellipsis-h{
+       position: absolute;
+       margin-left: 170px;
+        top: 168px;
+        font-size: 16px;
+        color: #babcc5;
+}
+.rightgrow{
+        width: 250px;
+}
+.right ul li {
+        list-style-type:none;
+}
+.right .rightimg {
+        width: 35px;
+        height: 35px;
+        margin-top: 50px ;
+        margin-left: -20px;
+        border-radius: 50%;
+}
+.right .rightimg2 {
+        width: 35px;
+        height: 35px;
+        margin-top: 30px ;
+        margin-left: -20px;
+        border-radius: 50%;
+}
+.right .icons {
+        font-size: 23px;
+        margin-left: -30px;
+        padding: 20px;
+        color: #9a9fbf;
+        font-weight: normal;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+.right .chatbg{
+        background-color: #7c5ac2;
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        margin-left: -39px;
+        overflow: hidden;
+        padding-left: 40px;
+}
+.bgchatgrow{
+        /* padding: 55px;
+        margin-left: -59px; */
+}
+.right .chatbg .fa-comments{
+        color: white;
+        margin-right: 10px;
+}
+.right .fa-comments {
+        font-size: 23px;
+        margin-left: -13px;
+        color: #9a9fbf;
+        font-weight: normal;
+}
+.right .content-icon{
+        margin-top: -40px;
+}
+/* end of right side */
+
+/* header */
+.header {
+        background-color: #3f4257;
+        position: fixed;
+        width: 100%;
+        z-index: 9;
+        height: 50px;
+        overflow: hidden;
+}
+ .logo .logoimg {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 7px;
+}
+.bglogo {
+        background-color: #ff5e3a;
+        padding: 8px;
+        margin-right: 25px;
+        text-align: center;
+        position: fixed;
+        left: 0px;
+        z-index: 99;
+        width: 70px;
+}
+
+.bglogogrow{
+        width: 200px;
+}
+
+.header .row .fa-grin-alt {
+        color: #888da8;
+        padding-top: 20px;
+        margin-top: 2px;
+        font-size: 15px;
+}
+
+.header .row .fa-comments {
+        color: #888da8;
+        font-size: 15px;
+}
+.header .row .fa-bell {
+        color: #888da8;
+        font-size: 15px;
+}
+.header .row .fa-search {
+        color: #888da8;
+        font-size: 15px;
+}
+.header .row .smilesup {
+        background: #38a9ff;
+        color: white;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        padding: 5px;
+        font-weight: bold;
+        font-size: 10px;
+        text-align: center; 
+}
+
+
+
+.header .row .comsup {
+        background-color: #7c5ac2;
+        color: white;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        padding: 8px;
+        font-weight: bold;
+        font-size: 13px;
+        text-align: center;
+
+}
+.header .row .bellsup {
+        background-color: #ff5e3a;
+        color: white;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        padding: 8px;
+        font-weight: bold;
+        font-size: 13px;
+        text-align: center;
+       
+}
+
+.header .row .menu {
+        background-color: #ff5e3a;
+        padding: 5px;
+        padding-left: 13px;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 7px;
+}
+.header .row .menu .fa-bars{
+        color: white;
+        margin-top: 14px;
+        margin-right: 10px;
+}
+.lheader .parag {
+        color: white;
+        margin-top: 14px;
+        font-size: 14px;
+        font-weight: bold;
+}
+.headersearch{
+        width: 450px;
+        background-color: #515365;
+}
+.headersearch .searchlabel{
+        background-color: #515365;
+        border: #515365;
+        font-size: 13px;
+}
+.headersearch .searchbtt{
+        background-color: #515365 ;
+        border: #515365;
+        margin-left: 170px;
+}
+.header .frparag {
+        color: white;
+        font-size: 13px;
+        margin-left: 10px;
+        font-weight: bold;
+        text-decoration: none;
+}
+.header .frparag:hover{
+        color: #ff5e3a;
+}
+/* .lheader .profileoicture{
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        margin-left: 80px;
+        margin-top: 40px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border: solid 4px #e8e8f0;
+        z-index: 99999999999999;
+} */
+/* end of header  */
+
+ /* cover section  */ 
+
+ /* end of cover section  */
+ .cimg .img-fluid {
+        width: 100%;
+        height: 145px;
+        margin-top: 51px;
+
+}
+/* profile section */
+
+.profileicons {
+        text-align: center;
+        position: absolute;
+        top: 160px;
+        right: 62px;
+}
+.profileicons .fa-grin-alt  {
+        color: white;
+        background-color: #38a9ff;
+        padding: 18px;
+        /* width: 50px;
+        height: 50px; */
+        border-radius: 50px;
+        margin-right: 15px;
+        cursor: pointer;
+
+}
+.profileicons .fa-comments {
+        color: white;
+        background-color: #7c5ac2;
+        padding: 18px;
+        /* width: 50px;
+        height: 50px; */
+        border-radius: 50px;
+        cursor: pointer;
+
+}
+.profileicons .fa-sliders-v {
+        color: white;
+        background-color: #ff5e3a;
+        padding: 18px;
+        /* width: 50px;
+        height: 50px; */
+        border-radius: 50px;
+        margin-left: 15px;
+        cursor: pointer;
+
+}
+
+.profilesection  {
+        background-color: white; 
+        padding-bottom: 20px;
+}
+.lefttimeline {
+        padding-left: 13px;
+        margin-top: 23px;
+}
+.rightlifetime {
+        padding-left: 15px;
+}
+ .timeline{
+        color: #515365;
+        /* margin-top: 33px; */
+        margin-left: 44px;
+        font-weight: bold;
+        text-decoration: none;
+}
+.profilesection .about{
+        color: #9a9fbf;
+        margin-top: 33px;
+        margin-left: 10px;
+        font-weight: bold;
+        text-decoration: none;
+}
+.profilesection .about:hover{
+        color: #515365 ;
+}
+.profilesection .friends{
+        color: #9a9fbf;
+        margin-top: 33px;
+        margin-left: 25px;
+        font-weight: bold;
+        text-decoration: none;
+}
+.profilesection .friends:hover{
+        color: #515365 ;
+}
+.profilesection .photo {
+        color: #9a9fbf;
+        margin-left: 51px;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 15px;
+}
+.profilesection .photo:hover{
+        color: #515365 ;
+}
+.profilesection .videos {
+        color: #9a9fbf;
+        font-size: 14px;
+        margin-left: 28px;
+        font-weight: bold;
+        text-decoration: none;
+}
+.profilesection .videos:hover{
+        color: #515365 ;
+}
+.profilesection .more {
+        color: #9a9fbf;
+        font-size: 20px;
+        margin-left: 37px;
+        font-weight: bold;
+        text-decoration: none;
+}
+.profilesection .more:hover{
+        color: #515365 ;
+}
+/* end of profile section  */
+
+
+/* profile picture */
+.profilesection .profileoicture .img {
+        width: 120px;
+        height: 120px;
+        border-radius: 120px;
+        margin-left: 80px;
+        margin-top: 40px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border: solid 4px #e8e8f0;
+}
+.profilesection .profileoicture .name {
+        font-weight: bold;
+        color: #515365;
+        margin-left: 90px;
+        margin-top: 10px;
+        cursor: pointer;
+}
+.profilesection .profileoicture .name:hover {
+        color: #ff5e3a;
+}
+
+.profilesection .profileoicture .country {
+        font-weight: lighter;
+        font-size: 11px;
+        color: #888da8;
+        margin-left: 102px;
+}
+/* end of profile section  */
+
+.post1 {
+        background-color: white;
+        padding-bottom: 25px;
+}
+.post1 .fa-trophy , .fa-heart , .fa-comment-alt , .fa-retweet{
+        background-color: #9a9fbf;
+        color: white;
+        padding: 8px;
+        border-radius: 50%;
+        margin: 3px;
+        cursor: pointer ;
+}
+.post1 .fa-trophy:hover{
+        background-color: #fab819;
+}
+.post1 .fa-heart:hover{
+        background-color: #ff5e3a;
+}
+.post1 .fa-comment-alt:hover{
+        background-color: #ff5e3a;
+}
+.post1 .fa-retweet:hover{
+        background-color: #ff5e3a;
+}
+.post1 .card1 {
+        border: none;
+}
+.post1 .card1 .img {
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        margin-left: 15px;
+}
+.post1 .card1 .text {
+        font-size: 13px;
+        color: #515365;
+        font-weight: bold;
+        margin-left: 15px;
+}
+.post1 .card1 .time {
+        font-size: 10px;
+        font-weight: bold;
+        margin-left: 15px;
+}
+.post1 .card1 .more {
+        position: absolute;
+        top: 25px;
+        right: 8px;
+        color: #9a9fbf;
+}
+.post1 .parag {
+        margin-top: 20px;
+        font-size: 11px;
+        color: #888da8;
+}
+.post1 .likes .fa-heart {
+        background-color: white;
+        color: #888da8;
+        margin-left: 20px;
+}
+.post1 .likes .fas{
+       color: #990000;
+}
+.post1 .likes .likesno {
+        font-size: 10px;
+        color: #888da8;
+        cursor: pointer;
+}
+.post1 .likes .fa-heart:hover{
+        color: #ff5e3a;
+}
+.post1 .likes .likesno:hover{
+        color: #ff5e3a;
+}
+.peoplesliked .img1 {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        margin-left: 10px;
+        border: solid 2px white;
+        cursor: pointer;
+}
+.peoplesliked .img2 {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        margin-left: -15px;
+        border: solid 2px white;
+        cursor: pointer;
+}
+.peoplesliked .img3 {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        margin-left: -15px;
+        border: solid 2px white;
+        cursor: pointer;
+}
+.peoplesliked .img4 {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+         margin-left: -15px;
+        border: solid 2px white;
+        cursor: pointer;
+}
+.peoplesliked .img5 {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+         margin-left: -15px;
+        border: solid 2px white;
+        cursor: pointer;
+}
+.likestext .name1 {
+        font-size: 13px;
+        font-weight: bold;
+        color: #3f4257;
+        margin-left: 15px;
+        cursor: pointer;
+}
+.likestext .name1:hover{
+        color: #ff5e3a;
+}
+.likestext .name2 {
+        font-size: 13px;
+        font-weight: bold;
+        color: #3f4257;
+        cursor: pointer;
+}
+.likestext .name2:hover{
+        color: #ff5e3a;
+}
+.likestext .and {
+        font-size: 12px;
+        font-weight: normal;
+        color: #888da8;
+}
+.likestext .parag {
+        font-size: 12px;
+        font-weight: normal;
+        color: #888da8;
+        margin-left: 15px;
+        margin-top: -3px;
+}
+.post1 .actions .fa-external-link-alt {
+        color: #888da8;
+        margin-left: 15px;
+}
+.post1 .actions .no {
+        font-size: 12px;
+        color: #888da8;
+}
+.post1 .actions .fa-comment-dots{
+        color: #888da8;
+        margin-left: 15px;
+}
+/* end of post1 */
+/*  post2 */
+.post1 .post2text{
+        font-size: 12px;
+        color:#888da8;
+        font-weight: normal;
+}
+.post1 .post2link{
+        font-size: 12px;
+        color:#ff5e3a;
+        font-weight: bold;
+        cursor: pointer;
+}
+.card3 .videoimg {
+        width: 180px;
+        height: 180px;
+        margin-left: 34px;
+        position: relative;
+}
+.card3 .fa-play {
+        background-color: rgba(240, 84, 49, 0.692);
+        padding: 20px;
+        border-radius: 50%;
+        color: white;
+        border: solid 5px white;
+        position: absolute;
+        top: 60px;
+        right: 95px;
+
+}
+.card3 .title {
+        color: #888da8;
+        font-size: 18px;
+        font-weight: lighter;
+        margin-left: 15px;
+        cursor: pointer;
+}
+.card3 .title:hover{
+        color: #ff5e3a;
+}
+.card3 .parag {
+        font-size: 13px;
+        margin-left: 15px;
+}
+.card3 .youtubelink {
+        color: #888da8;
+        margin-left: 15px;
+        font-size: 10px;
+        text-decoration: none;
+        /* cursor: pointer; */
+}
+.card3 .youtubelink:hover{
+        color: #ff5e3a;
+}
+/* comment section */
+.commentsection .imgcom {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        margin-left: 5px;
+}
+.commentsection .reply {
+        font-size: 12px;
+        color: #888da8;
+        margin-left: 15px;
+        cursor: pointer
+}
+.commentsection .reply:hover{
+        color: #ff5e3a;
+}
+.reply .commentsection .imgcom {
+        margin-left: 30px;
+}
+.reply .commentsection .parag {
+        margin-left: 30px;
+}
+.reply .commentsection .likes{
+        margin-left: 25px;
+}
+.view .viewlink {
+        font-size: 14px;
+        margin-left: 70px;
+        text-decoration: none;
+        color: #3f4257;
+        font-weight: bold;
+}
+.view .fa-plus {
+        font-size: 8px;
+        font-weight: normal;
+        cursor: pointer;
+}
+.view .fa-plus:hover{
+        color: #ff5e3a;
+}
+.profilecom .box {
+        align-items: center;
+}
+.profilecom .img {
+        width: 35px;
+        height: 35px;
+        border-radius: 35px;
+        margin-right: 5px;
+        margin-left: 10px;
+}
+.profilecom .textarea {
+        margin-left: 5px;
+        height: 60px;
+        transition: all .3s ease-in-out
+}
+.profilecom .textarea:active{
+        height: 100px;
+}
+.profilecom .textarea:hover{
+        border: #ff5e3a;
+}
+.profilecom .fa-camera {
+        font-size: 23px;
+        color: #a5a8b9;
+        position: relative;
+        left: -30px;
+        bottom: -15px;
+}
+.profilecom .button {
+        width: 80px;
+        margin-left: 50px;
+        margin-top: 15px;
+        padding: 8px;
+        border: solid 0.5px #a5a8b9;
+        border-radius: 5px;
+        background-color: white;
+        font-size: 10px;
+        font-weight: bold;
+        color: #888da8;
+        cursor: pointer;
+}
+.profilecom .button:hover{
+        color: #6c7088;
+}
+
+.profilecom .button1 {
+        width: 120px;
+        margin-left: 10px;
+        margin-top: 15px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #ff5e3a;
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+}
+.profilecom .button1:hover{
+        background-color: #fc512b;
+}
+/* post 4   */
+.post4 .parag {
+        margin-left: 15px;
+}
+.post4 .imgcom {
+        margin-left: 10px;
+}
+ .post4 .comm2 .imgcom{
+         width: 30px;
+         height: 30px;
+         border-radius: 30px;
+ }
+.post4 .comm2 .likes {
+          margin-top: -25px;
+  }
+.empty .more .fa-ellipsis-h {
+        color: white;
+        font-size: 20px;
+        margin-left: 45%;
+        background-color: #e8e8f0;
+        padding: 15px;
+        border-radius: 50%;
+        margin-top: 20px;
+
+  }
+.post1 .card1 .text4 {
+        font-size: 13px;
+        color: #515365;
+        font-weight: bold;
+        margin-left: 15px;
+}
+.post1 .card1 .time4 {
+        font-size: 10px;
+        font-weight: bold;
+        margin-left: 15px;
+}
+  /* profile intro */
+  .profileintro{
+          margin-top: 10px;
+  }
+.profileintro .intro {
+        background-color: white;
+        font-size: 13px;
+        font-weight: bold;
+        color: #3f4257;
+        
+  }
+.profileintro .title {
+        font-size: 11px;
+        color: #888da8;
+  }
+.profileintro .text {
+        font-size: 10px;
+        color: #888da8;
+  }
+.profileintro .title2{
+        font-size: 12px;
+        color: #3f4257;
+        font-weight: bold;
+  }
+  .socialmedia {
+          padding-bottom: 20px;
+  }
+.socialmedia .btt1 {
+        width: 250px;
+        margin-left: 3px;
+        margin-bottom: 10px;
+        font-size: 11px;
+        font-weight: bold;
+        background-color: #2f5b9d;
+        border: none;
+  }
+  .socialmedia .btt1:hover {
+        background-color: #4470b3;
+  }
+.socialmedia .btt2 {
+        width: 250px;
+        margin-left: 3px;
+        margin-bottom: 10px;
+        font-size: 11px;
+        font-weight: bold;
+        background-color: #38bff1;
+        border: none;
+  }
+  .socialmedia .btt2:hover {
+          background-color:#58caf3 ;
+  }
+.socialmedia .btt3 {
+        width: 250px;
+        margin-left: 3px;
+        margin-bottom: 10px;
+        font-size: 11px;
+        font-weight: bold;
+        background-color: #f74881;
+        border: none;
+  }
+.socialmedia .btt3:hover{
+        background-color: #fd5d93;
+  }
+
+.spotify .spotifyheader {
+        background-color: white;
+        font-size: 12px;
+        font-weight: bold;
+        color: #494b5c;
+  }
+.spotify .badges {
+        margin-top: 20px;
+        padding-bottom: 20px;
+}
+.spotify .badges .badge1 {
+        margin-right: 10px;
+}
+.spotifyplaylist .song1 {
+        font-size: 11px;
+        color: #494b5c;
+        font-weight: bold;
+        margin-left: -40px;
+}
+.spotifyplaylist .artistname {
+        font-size: 11px;
+        color: #494b5c;
+        margin-left: -40px;
+}
+.spotifyplaylist .coversong {
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+}
+.spotifyplaylist .duration {
+        color: #a5a8b9;
+        margin-top: 13px;
+}
+/* end of spotify playlist  */
+
+/* twitter feed  */
+.spotifyplaylist .spotifyheader {
+        background-color: white;
+        font-size: 11px;
+        color: #3f4257;
+        font-weight: bold;
+}
+.twittericon .coversong {
+        margin-left: 10px;
+}
+.profilename {
+        margin-left: 13px;
+        font-size: 11px;
+        font-weight: bold;
+        color: #3f4257  ;
+}
+.username {
+        margin-left: 13px;
+        font-size: 11px;
+        font-weight: normal;
+        color: #888da8  ;
+        margin-top: -10px;
+}
+ .tweet {
+        font-size: 13px;
+        color: #888da8;
+        margin-top: 5px;
+}
+.hashtag {
+        color: #38bff1;
+        font-size: 13px;
+        margin-top: -5px;
+}
+.hashtag:hover{
+        text-decoration: none;
+        color: #38bff1;
+}
+.tweettime {
+        font-size: 13px;
+        margin-top: 10px;
+        color: #9a9fbf;
+}
+/* end of twitter feed */
+/* videos  */
+.lastvideos .lastvideo {
+        background-color: white;
+        font-size: 11px;
+        font-weight: bold;
+        color: #3f4257;
+}
+.lastvideos .video1 {
+        border-radius: 5px;
+        width: 250px;
+        height: 180px;
+        margin-bottom: 15px;
+        position: relative;
+}
+
+.lastvideos .playbtt .play {
+         background-color: rgba(240, 84, 49, 0.692);
+        padding: 20px;
+        border-radius: 50%;
+        color: white;
+        border: solid 5px white;
+        position: absolute;
+        top: 120px;
+        right: 115px;
+}
+.lastvideos .playbtt .play2 {
+         background-color: rgba(240, 84, 49, 0.692);
+        padding: 20px;
+        border-radius: 50%;
+        color: white;
+        border: solid 5px white;
+        position: absolute;
+        top: 310px;
+        right: 115px;
+        z-index: 9;
+}
+/* end of videos  */
+/* photos  */
+.rightside .lastphoto {
+        background-color: white;
+        font-size: 13px;
+        color: #3f4257;
+        font-weight: bold;
+}
+.firstlinephoto {
+        margin-left: 10px;
+}
+.rightside .photo {
+        width: 74px;
+        height: 74px;
+        border-radius: 3px;
+        margin-right: 10px;
+}
+/* end of photos  */
+/* blog posts  */
+.blogs .blog1 {
+        color: #a5a8b9;
+}
+.blogs .blog1:hover{
+        text-decoration: none;
+        color: #ff5e3a;
+}
+.blogs .blogparag {
+        font-size: 13px;
+        color: #a5a8b9;
+        margin-top: 15px;
+}
+.blogs .blogtime {
+        font-size: 12px;
+        color: #a5a8b9;
+}
+/* end of blog posts  */
+/* friends section */
+.friends .frimg {
+        width: 34px;
+        height: 34px;
+        border-radius: 34px;
+        margin-left: -10px;
+        margin-top: 12px;
+        margin-right: 5px;
+}
+.friends .frline {
+        margin-top: 15px;
+        position: relative;
+}
+.friends .frno {
+        background-color: #ff5e3a;
+        width: 35px;
+        height: 35px;
+        border-radius: 100%;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        display: block;
+        text-align: center !important; 
+        line-height: 31px;
+        text-decoration: none;
+        
+
+
+}
+/* end of friends section  */
+/* favourits section  */
+.spotifyplaylist .favourite .coversong {
+        border-radius: 50%;
+}
+.favtext .song1 {
+        margin-left: 16px;
+}
+.favtext .parag {
+        margin-left: 16px;
+}
+/* end of favourits section */
+/* vote section */
+.vote .text {
+        font-size: 12px;
+        color: #888da8;
+}
+.vote .votelabel {
+        font-size: 14px;
+        color: #888da8;
+        margin-left: 10px;
+}
+.vote .votecheck {
+        width: 18px;
+        height: 18px;
+        /* color: #ff5e3a !important; */
+
+}
+.vote .voteperc {
+        font-size: 13px;
+        color: #888da8;
+        margin-left: 100px;
+}
+.vote .orangrange {
+        border: 2px solid #ff5e3a;
+        background-color: #ff5e3a;
+        border-radius: 20px;
+        width: 60%;
+        margin-left: -20px;
+}
+.vote .whiterange {
+        border: 2px solid #e8e8f0;
+        background-color: #e8e8f0;
+        border-radius: 20px;
+        width: 40%;
+        margin-left: 118px;
+        margin-top: -20px;
+}
+.vote .frndno {
+        font-size: 10px;
+        color: #a5a8b9;
+        margin-left: -20px;
+        margin-top: -8px;
+}
+.vote .votelikes {
+        margin-left: -50px;
+}
+.vote .addlikes {
+        background-color: #fc512b8f;
+        color: white;
+        font-weight: bold;
+        width: 30px;
+        height: 30px;
+        border: solid 2px white;
+        border-radius: 50%;
+        margin-left: -20px ;
+        font-size: 14px;
+        text-align: center;
+}
+.vote .orangrange2 {
+        border: 2px solid #ff5e3a;
+        background-color: #ff5e3a;
+        border-radius: 20px;
+        width: 30%;
+        margin-left: -20px;
+}
+.vote .whiterange2 {
+        border: 2px solid #e8e8f0;
+        background-color: #e8e8f0;
+        border-radius: 20px;
+        width: 70%;
+        margin-left: 52px;
+        margin-top: -20px;
+}
+.vote .voteperc2 {
+        font-size: 13px;
+        color: #888da8;
+        margin-left: 190px;
+        position: absolute;
+        top: 0px;
+        left: 30px;
+}
+.vote .orangrange3 {
+        border: 2px solid #ff5e3a;
+        background-color: #ff5e3a;
+        border-radius: 20px;
+        width: 10%;
+        margin-left: -20px;
+}
+.vote .whiterange3 {
+        border: 2px solid #e8e8f0;
+        background-color: #e8e8f0;
+        border-radius: 20px;
+        width: 90%;
+        margin-left: 6px;
+        margin-top: -20px;
+}
+.vote .votebtt .vbtt {
+        margin-top: 25px;
+        border: 1px solid #a5a8b9;
+        border-radius: 5px;
+        width: 100%;
+        font-size: 9px;
+        font-weight: bold;
+        color: #6c7088;
+        padding: 8px;
+        background-color: white;
+        cursor: pointer;
+}
+.vote .votebtt .vbtt:hover {
+        color: #9a9fbf;
+}
+.peoplesliked .vimg1 {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        margin-left: 10px;
+        border: solid 2px white;
+        cursor: pointer;
+}
+.peoplesliked .vimg2 {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        margin-left: -15px;
+        border: solid 2px white;
+        cursor: pointer;
+}
+.peoplesliked .vimg3 {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        margin-left: -15px;
+        border: solid 2px white;
+        cursor: pointer;
+}
+.peoplesliked .vimg4 {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+         margin-left: -15px;
+        border: solid 2px white;
+        cursor: pointer;
+}
+.peoplesliked .vimg5 {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+         margin-left: -15px;
+        border: solid 2px white;
+        cursor: pointer;
+}
+
+
+
+
+
+
+/* Mobile landscape */
+@media (min-width: 480px) {
+
+ /* header */
+.header .row .logo .logoimg {
+        width: 22px;
+        height: 22px;
+        margin-bottom: 20px;
+}
+.header .row .bglogo {
+        padding: 15px;
+}
+.header .row .fa-grin-alt {
+        font-size: 18px;
+}
+.header .row .fa-comments {
+        font-size: 18px;
+}
+.header .row .fa-bell {
+
+}
+.header .row .fa-search {
+        margin-left: 60px;
+}
+.header .row .smilesup {
+}
+.header .row .comsup {
+}
+.header .row .bellsup {
+}
+.header .row .menu {
+        padding: 14px;
+        font-size: 16px;
+}
+.header .row .menu .fa-bars{
+        margin-top: 5px;
+        margin-right: 3px;
+}
+/* end of header  */
+
+/* profile section */
+.profileicons {
+        top: 160px;
+        right: 156px;
+}
+.lefttimeline {
+        padding-left: 80px;
+        margin-top: 23px;
+}
+.rightlifetime {
+        padding-left: 80px;
+}
+/* end of profile section  */
+
+/* profile picture */
+.profilesection .profileoicture .img {
+        margin-left: 155px;
+}
+.profilesection .profileoicture .name {
+        margin-left: 167px;
+}
+.profilesection .profileoicture .country {
+        margin-left: 178px;
+}
+/* end of profile section  */
+/* like section  */
+.likessection {
+        display: flex;
+}
+
+.likesection .likestext {
+        margin-left: 10px
+        ;
+}
+.peoplesliked .img4 {
+        margin-top: -30px;
+        margin-left: 50px;
+}
+.peoplesliked .img5{
+        margin-top: -30px;
+}
+.post1 .likes .fa-heart {
+        margin-left: 4px;
+}
+.likestext .name1{
+        margin-left: -40px;
+}
+.post1 .actions .fa-comment-dots{
+        margin-left: 30px;
+}
+.likestext .parag {
+        margin-left: -40px;
+}
+input[type="checkbox"] {
+    background: #990000;    
+}
+
+/* post 2 */
+.card3 .videoimg {
+        margin-left: 108px;
+}
+.card3 .fa-play{
+        right: 177px;
+}
+/* post 3  */
+
+.profilecom .textarea{
+        width: 75%;
+}
+.btts {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.post1 .card1 .img {
+        margin-top: 0px;
+}
+.post1 .card1{
+        /* padding-top: -10px; */
+}
+.post1 .card1 .text{
+        margin-left: 15px;
+        margin-top: 0px;
+}
+.post1 .card1 .time {
+        margin-left: 15px;
+}
+.view .viewlink{
+        margin-left: 140px;
+}
+/* profile intro  */
+.socialmedia .btt1 {
+        width: 415px;
+        padding: 8px;
+}
+.socialmedia .btt2 {
+        width: 415px;
+        padding: 8px;
+}
+.socialmedia .btt3 {
+        width: 415px;
+        padding: 8px;
+}
+/* badges */
+.spotify .badges .badge1{
+        margin-left: 20px;
+}
+.spotifyplaylist .song1{
+        margin-left: -145px;
+}
+.spotifyplaylist .artistname{
+        margin-left: -145px;
+}
+/* end of badges  */
+/* videos  */
+.lastvideos .playbtt .play{
+        right: 280px;
+}
+.lastvideos .playbtt .play2{
+        right: 280px;
+}
+/* end of videos  */
+}
+
+/* Small tablet portrait */
+@media (min-width: 600px) {
+.container {
+        max-width: 570px;
+}
+
+/* cover section  */ 
+.cimg .img-fluid {
+        width: 100%;
+        height: 190px;
+
+}
+        /* header */
+.header .row .smilesup {
+        
+}
+.header .row .comsup {
+}
+.header .row .bellsup {
+}
+/* end of header  */
+/* profile section */
+.profileicons {
+      
+}
+.profileicons .fa-grin-alt {
+}
+.profileicons .fa-comments{
+}
+.profileicons .fa-sliders-v {
+}
+.lefttimeline {
+        padding-left: 106px;
+}
+.profilesection .about {
+    margin-left: 38px;
+}
+/* end of profile section  */
+.rightlifetime {
+       padding-left: 0px;
+        margin-top: 0px;
+        margin-left: 110px;
+}
+.profilesection .videos{
+        margin-left: 50px;
+        }
+.profilesection .more {
+        margin-left: 45px;
+ }
+
+/* profile picture */
+.profileoicture{
+        margin-left: 25px;
+}
+.profilesection .profileoicture .img {
+        margin-left: 180px;
+}
+.profilesection .profileoicture .name {
+        margin-left: 190px;
+}
+.profilesection .profileoicture .country {
+        margin-left: 202px;
+}
+/* end of profile section  */
+/* post 2  */
+.card3 .videoimg {
+        margin-left: 152px;
+}
+.card3 .fa-play {
+        right: 220px;
+}
+/* profile intro  */
+.socialmedia .btt1 {
+        width: 500px;
+}
+.socialmedia .btt2 {
+        width: 500px;
+}
+.socialmedia .btt3 {
+        width: 500px;
+}
+/* videos  */
+.lastvideos .playbtt .play {
+        right: 360px;
+}
+.lastvideos .playbtt .play2 {
+        right: 360px;
+}
+
+}
+
+
+@media (min-width: 768px) { 
+        .left {
+                display: block;
+        }
+        .right {
+                display: block;
+        }
+}
+@media (min-width: 800px){
+        .cimg .covimag {
+                margin-right: 100px;
+        }
+        .container {
+                max-width: 620px;
+        }
+/* profile section  */
+        .profileicons {
+                right: 275px;
+        }
+}
+
+@media (min-width: 1200px){
+        .container{
+                max-width: 1300px;
+        }
+        /* header  */
+        .header .row .bglogo {
+                padding-right: 24px;
+        }
+        .header .row .logo .logoimg{
+                margin-left: 10px;
+        }
+        .header .row .fa-grin-alt {
+                font-size: 22px;
+                margin-top: -5px;
+                color: white;
+         }
+         .header .row .fa-comments {
+                font-size: 22px;
+                color: white;
+        }
+        .header .row .fa-bell {
+                font-size: 22px;
+                color: white;
+        }
+        .header .row .smilesup {
+                padding: 8px;
+                text-align: center;
+        }
+        .header .row .comsup {
+                padding: 8px;
+                text-align: center;
+        }
+        .header .row .bellsup {
+                padding: 8px;
+                text-align: center;
+        }
+        /* profile section */
+        .timeline {
+                margin-left: -25px;
+        }
+        .profilesection .about {
+                margin-left: 80px;
+        }
+        .profilesection .friends {
+                margin-left: 80px;
+        }
+        .profileicons {
+                right: 145px;
+                top: 360px;
+        }
+        .profileoicture {
+                margin-top: -130px;
+                margin-left: -40px
+        }
+         .lefttimeline{
+                margin-top: 40px;
+        }
+        .rightlifetime {
+                padding-left: 0px;
+                margin-top: 35px;
+                margin-left: -50px;
+        }
+        .profilesection .videos{
+                margin-left: 95px;
+        }
+        .profilesection .more {
+                margin-left: 95px;
+        }
+        .profilesection .photo {
+                margin-left: 100px;
+        }
+        .cimg .img-fluid {
+                width: 100%;
+                height: 310px;
+                margin-top: 85px;
+                border-radius: 5px;
+        }
+        /* end of  profile section  */
+        /* posts  */
+
+        .post1 .likes .fa-heart {
+                margin-left: 20px;
+        }
+        .peoplesliked{
+                margin-left: 0px;
+        }
+        .post1 .parag {
+                font-size: 14px;
+        }
+        .post1 .likes .likesno {
+                font-size: 12px;
+                margin-left: -7px;
+        }
+        .post1 .actions .fa-comment-dots {
+                margin-left: 170px;
+        }
+        .post1 .actions .fa-external-link-alt {
+                margin-left: 18px;
+        }
+        /* end of post 1  */
+        /* post 2  */
+        .card3 .videoimg {
+                margin-left: 0px;
+                height: 200px;
+        }
+        .card3 .title {
+                font-size: 22px;
+                margin-left: -30px;
+                margin-top: -5px;
+        }
+        .card3 .parag {
+                font-size: 14px;
+                margin-left: -27px;
+        }
+        .card3 .fa-play {
+                right: 427px;
+        }
+        .card3 .youtubelink {
+                margin-left: -23px;
+                font-size: 12px;
+        }
+        .view .viewlink {
+                margin-left: 230px;
+        }
+        .profilecom .img {
+                margin-right: 5px;
+                margin-left: -292px;
+                position: relative;
+                right: -155px;
+        }
+       .profilecom .textarea {
+                margin-left: 5px;
+                height: 60px;
+                transition: all .3s ease-in-out;
+                position: relative;
+                right: -160px;
+                width: 80%;
+        }
+        .profilecom .fa-camera {
+                position: relative;
+                left: 122px;
+                bottom: -10px;
+        }
+        .btts{
+                text-align: right;
+                margin-right: 30px;
+                margin-top: 10px;
+        }
+        .peoplesliked .img1 {
+                margin-left: 10px;
+        }
+        .peoplesliked .vimg1 {
+                margin-left: 46px;
+        }
+        /* profile intro  */
+        .socialmedia .btt1{
+                width: 260px;
+        }
+        .socialmedia .btt2{
+                width: 260px;
+        }
+        .socialmedia .btt3{
+                width: 260px;
+        }
+ /* vote section  */
+        .vote .votelikes {
+                margin-left: -90px;
+        }
+        .vote .addlikes {
+                margin-top: -30px;
+                margin-left: 175px;
+        }
+/* end of voye section  */
+/* badges  */
+.spotify .badges .badge1{
+        margin-left: 0px;
+}
+/* spotify  */
+.spotifyplaylist .song1 {
+        margin-left: -50px;
+}
+.spotifyplaylist .artistname {
+        margin-left: -50px;
+}
+/* videos  */
+.lastvideos .playbtt .play2 {
+        right: 120px;
+}
+.lastvideos .playbtt .play {
+    right: 120px;
+}
+
+
+
+
+
+}
+
+
